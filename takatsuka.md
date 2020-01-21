@@ -3,8 +3,8 @@ git reset --hard ae3160982d72a7eeab70099f56aecd7c9db071fb
 コミットしたところまで戻れる、戻れませんよ
 - ブランチ　同時進行できるよ
 ＝＞ブランチ作成　git checkout -b ブランチ名　（作成
-　＝＞移動） git branch ブランチ名
-
+　＝＞移動） git checkout ブランチ名
+ =>マスターかブランチか確認）git branch
 ブランチ作るまでは引き継がれてる
 
 - git addとは？？
@@ -13,4 +13,4 @@ git reset --hard ae3160982d72a7eeab70099f56aecd7c9db071fb
 git add ファイル名　
 
 - merge
-枝分かれしたファイルを統合する
+枝分かれしたファイルをマスターに統合する
