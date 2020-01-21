@@ -12,5 +12,8 @@ git reset --hard ae3160982d72a7eeab70099f56aecd7c9db071fb
 -Aだと全て選んでしまう、個別に選択したい場合は
 git add ファイル名　
 
-- merge
+- git merge ファイル名
 枝分かれしたファイルをマスターに統合する
+
+- コンフリクト
+titleなど同じ箇所を二つのブランチで変更した場合mergeしたときにぶつかる。
